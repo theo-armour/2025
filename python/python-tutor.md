@@ -19,11 +19,15 @@
 
 Go to https://python.org and download
 
+2025-02-02 ~ Latest: Python 3.13.1
 
 ## Starting Python
 
 terminal > command prompt > py
 
+## Run app
+
+>py filename.py
 
 ## install
 
@@ -52,6 +56,7 @@ py -m pip install numpy
 ## Casting
 
 ``` python
+
 x = str(3)    # x will be '3'
 y = int(3)    # y will be 3
 z = float(3)  # z will be 3.0
@@ -60,20 +65,25 @@ z = float(3)  # z will be 3.0
 ## Type
 
 ``` python
+
 x = 5
 y = "John"
 print(type(x))
 print(type(y))
+
 ```
 
 ## Tips
 
+Variable names
+
 * Variable names are case-sensitive.
-* A variable name must start with a letter or the underscore character
-* A variable name cannot start with a number
-* A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
-* Variable names are case-sensitive (age, Age and AGE are three different variables)
-* A variable name cannot be any of the Python keywords.
+* Variable names must start with a letter or the underscore character
+* Variable names cannot start with a number
+* Variable names can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+* Variable names cannot be any of the Python keywords.
+
+Strings
 
 * String variables can be declared either by using single or double quotes:
 * You can assign a multiline string to a variable by using three quotes - single or double:
@@ -92,6 +102,7 @@ print(type(y))
 * Binary Types: bytes, bytearray, memoryview
 * None Type: NoneType
 
+
 ## Standard Library
 
 * https://docs.python.org/3/library/index.html
@@ -103,6 +114,7 @@ print(type(y))
 * https://pypi.org/project/pip/
 * https://pip.pypa.io/en/stable/getting-started/
 * https://www.w3schools.com/python/python_pip.asp
+
 
 ### Version
 
