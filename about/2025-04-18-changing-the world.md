@@ -49,7 +49,12 @@ And in doing so, I helped China become the industrial colossus it is today, whic
 
 And so with a sheepish grin, I say, this was the first time I helped change the world.
 
+***
 
+I can't think of another Westerner doing anything like I was doing
+
+In any case any others were there for the salaries and commissions. I was there for the fun of it. I was there to help people learn how to use computers. I was there to help people learn how to design things on a computer screen. I was there to help people learn how to build factories and buildings and hospitals and highways and whatever.. I was there to help people learn how to design things to make and thus factories and whatever.
+I had inherited $250,000 from may great aunt. I was not there for the money. I was there to start something.
 
 ## Second Change
 
@@ -64,6 +69,12 @@ To make a long story short, people heard me speaking. Their curiosity was piqued
 To make an even longer story even shorter, in 1991 I moved my family to America and the mission, by invitation of Autodesk, was to design AutoCAD. I designed the first release of AutoCAD LT - the "lite" version. Then, with my colleague Jerry Ford (still with Autodesk), we designed three releases of AutoCAD — including the mega-hit AutoCAD Release 14.
 
 In the early 1990s most every architect and engineer in the world was drawing on paper, by 2000 most every architect and engineer in the world was drawing on a computer screen. And most of them were using AutoCAD Release 14. A program I helped with design, build and ship.
+
+### The move to America
+
+* Waking up one morning
+* The change from marketing to development
+* The change from being a consultant to being an employee
 
 ## Third Change
 
