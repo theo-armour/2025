@@ -1,5 +1,7 @@
 # 2025-05-24 Project Analysis
 
+* What is the priority here?
+
 ## Intro
 
 Because of my newfound treasure of personal pleasure, ~~Bounders Inc~~, er, Founders Inc. {The strikeout was initiated by a spelling correction. The title is absolutely inappropriate in this context, but it made me smile.}, I have been thinking about how to analyze projects.
