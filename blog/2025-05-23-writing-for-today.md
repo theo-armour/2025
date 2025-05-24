@@ -1,6 +1,14 @@
 # 2025-05-23 Writing for Today
 
-* Writing for the future not writing for the past
+* Writing for the future ~ not writing for the past
+
+## Update 2025-05-24
+
+I have not finished this post. It should probably never be finished. The issue was that I kept adding new ideas as I was writing. In other words, the initial idea was so loose that it kept expanding and expanding, rather than allowing me to focus and finish the post in a reasonable amount of time.
+
+I definitely do want to finish this work, but I will build upon this in a bunch of future smaller posts.
+
+The next step will be to divide these ideas into a bunch of smaller ones. Perhaps something like, what are three questions that you should answer before you start writing?
 
 ## Intro
 
@@ -9,12 +17,12 @@ This paper covers the kinds of rules or observations that I will make when I rea
 
 ## Writing for Modern Media
 
-Mission
+### Mission
 
 * Use a consistent style for all documents
 * Documents you send out become part of your branding
 
-Solutions
+### Solutions
 
 * Using templates, develop your standard document style
 * Set up styles for headings, paragraphs, and lists
@@ -90,11 +98,11 @@ Solution
 * Metrics and targets
 * Verifiable numeric targets
 
-### Write for Vefification
+### Write for Verification
 
 Problem
 
-* How can yo verify the text you write?
+* How can you verify the text you write?
 
 Solution
 
