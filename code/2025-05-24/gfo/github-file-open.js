@@ -58,6 +58,6 @@ function getTextfromURL(url = location.hash.slice(1)) {
     .filter(x => x.length > 0)
     //.map((x) => (x.charAt(0).toUpperCase() + x.slice(1)))
     .join(" ");
-  document.title = "TooToo: " + title;
+  document.title = `${ COR.menuTitle}: ` + title;
 
 }
