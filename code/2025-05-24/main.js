@@ -15,7 +15,7 @@ const COR = {
 
     urlSource: "https://github.com/theo-armour/2025/tree/main/",
     urlPathContent: "https://theo-armour.github.io/2025/",
-    urlPathApps: "https://theo-armour.github.io/2025/code/2025-05-24/",
+    urlPathApps: "https://theo-armour.github.io/2025/code/",
     urlPushPath: "https://theo-armour.github.io/2025/",
 
     iconExternalLink: "<img src='https://pushme-pullyou.github.io/assets/svg/icon-external-link.svg' width=16 >",
