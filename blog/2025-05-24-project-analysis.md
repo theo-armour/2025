@@ -6,7 +6,7 @@
 
 The author got sidetracked from reviewing their friend Drew's pitch book formatting and realized they should focus on substance over style.
 
-Key insight: Instead of perfecting appearance, they should ask fundamental questions about project viability - inspired by the "Parable of the River" (go upstream to fix root causes).
+**Key insight**: Instead of perfecting appearance, they should ask fundamental questions about project viability - inspired by the "Parable of the River" (go upstream to fix root causes).
 
 Three core due diligence questions:
 
