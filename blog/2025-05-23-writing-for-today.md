@@ -6,13 +6,15 @@
 
 I have not finished this post. It should probably never be finished. The issue was that I kept adding new ideas as I was writing. In other words, the initial idea was so loose that it kept expanding and expanding, rather than allowing me to focus and finish the post in a reasonable amount of time.
 
-I definitely do want to finish this work, but I will build upon this in a bunch of future smaller posts.
+I definitely do want to finish this effort, but I will build upon this in a bunch of future smaller posts.
 
-The next step will be to divide these ideas into a bunch of smaller ones. Perhaps something like, what are three questions that you should answer before you start writing?
+The next step will be to divide the ideas started here into a bunch of smaller ones. Perhaps something like, what are three questions that you should answer before you start writing?
 
 ## Intro
 
-This paper covers the kinds of rules or observations that I will make when I read a business plan or similar business document. 
+This paper covers the kinds of considerations or observations that I often come up with when I read a business plan or similar business document.
+
+Whenever I make such an observation, I would like to be able to point to a definition or explanation of the background for that observation. This document begins to cover the rules I generally follow. In other words, it's kind of my style guide.  
 
 
 ## Writing for Modern Media
