@@ -60,18 +60,15 @@ async function fetchGitHubRepoContents(user, repo) {
 
       const fileLink = document.createElement('a');
       fileLink.textContent = formatDisplayName(fileName);
-      fileLink.href = `#${ COR.pathContent }${item.path}`;
+      fileLink.href = `#${item.path}`;
 
       const readmeLink = document.createElement('a');
       readmeLink.innerHTML = COR.iconExternalLink;
-      readmeLink.href = `${ COR.pathApps}readme.html#${ COR.pathContent }${item.path}`;
+      readmeLink.href = `${ COR.pathApps}readme.html#${ COR.pathContent}${item.path}`;
       readmeLink.target = '_blank';
 
       const fileContainer = document.createElement('p');
-      //fileContainer.style.marginBottom = '6px'; // Add bottom margin for spacing
-      //fileContainer.style.marginTop = '0px';     // No top margin needed
-
-      const space = document.createElement('span');
+       const space = document.createElement('span');
       space.innerHTML = " ";
 
       fileContainer.appendChild(fileLink);

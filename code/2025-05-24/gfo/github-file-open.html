@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
   <meta name="description" content="File wrangler: Opens HTML or Markdown files. Passes location.hash.">
   <meta name="keywords" content="ShowDown,Markdown,AJAX,JavaScript,HTML,CSS,GitHub,FOSS">
-  <meta name="version" content="2025-05-24">
+  <meta name="version" content="2025-05-24-2">
   <meta name="author" content="Theo Armour">
   <meta name="creator" content="https://github.com/pushme-pullyou/tootoo-2025">
 
@@ -75,7 +75,7 @@
     } else {
 
       COR.pathApps = "../";
-      COR.pathContent = "../../";
+      COR.pathContent = "../../../";
 
     }
 
@@ -88,16 +88,17 @@
 
     }
 
-    location.hash = COR.pathContent + COR.defaultFile
+    location.hash = location.hash ? location.hash : COR.defaultFile;
+
 
   </script>
 
   <script>
 
-    test1 = () => location.hash = COR.pathContent + "README.md";
-    test2 = () => location.hash = COR.pathContent + "test.md";
-    test3 = () => location.hash = COR.pathContent + "text-to-hack.md";
-    test4 = () => location.hash = COR.pathContent + "test-cases/text-to-hack-2.md";
+    test1 = () => location.hash = "README.md";
+    test2 = () => location.hash = "test.md";
+    test3 = () => location.hash = "text-to-hack.md";
+    test4 = () => location.hash = "test-cases/text-to-hack-2.md";
 
     test5 = () => location.hash = COR.base + "README.md";
     test6 = () => location.hash = COR.base + "test.md";

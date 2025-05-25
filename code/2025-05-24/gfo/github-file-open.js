@@ -29,7 +29,7 @@ function onHashChange() {
 
     } else {
 
-      divMainContent.innerHTML = `<iframe id=ifr class="iframe-resize" src="${hash}"" ></iframe>`
+      divMainContent.innerHTML = `<iframe id=ifr class="iframe-resize" src="${ COR.pathContent }${hash}"" ></iframe>`
 
     }
   }
@@ -44,7 +44,7 @@ function getTextfromURL(url = location.hash.slice(1)) {
   const options = { openLinksInNewWindow: false, excludeTrailingPunctuationFromURLs: true, ghMention: true, simplifiedAutoLink: true, simpleLineBreaks: true, emoji: true };
 
   const xhr = new XMLHttpRequest();
-  xhr.open("get", url, true);
+  xhr.open("get", COR.pathContent + url, true);
   xhr.onload = () => {
     let txt = xhr.responseText;
     txt = txt.replace(/\<!--@@@/, " ).replace /\@@@-- >/, ");
