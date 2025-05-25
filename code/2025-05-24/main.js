@@ -26,9 +26,9 @@ const COR = {
     menuTitle:  "Theo 2025",
     
 
-    filterFolders: [], //[ "code"],
+    filterFolders: [ "archive", "code"],
 
-    ignoreFiles: [ "404.html", "archive", "code", "favicon.ico", "index.html", "readme.html" ],
+    ignoreFiles: [ "404.html", "favicon.ico", "index.html", "readme.html" ],
 
 }
 
