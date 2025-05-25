@@ -1,5 +1,11 @@
 # 2025-03-02 Myra Krieger Questions
 
+## Preface
+
+The following are my responses to questions sent out by Myra while she, in preparation for writing a biography of me, published in _Senior Beat_ magazine. 
+
+[Early computer nerd – now a regular at future-focused public space with bar – slowly realized he “was in the middle of something big”]( https://sfseniorbeat.com/2025/04/18/early-computer-nerd-now-a-regular-at-future-focused-public-space-with-bar-slowly-realized-he-was-in-the-middle-of-something-big/ )
+
 ## 1. What is your date of birth?
 
 1947-01-28
@@ -139,10 +145,10 @@ Math
 
 All of them because none of them were any fun
 
-### 8. Would you consider yourself in your youth – Introverted?  Extraverted?  A leader?  A follower?  A little of both?  
+### 8. Would you consider yourself in your youth – Introverted?  Extroverted?  A leader?  A follower?  A little of both?  
 
 * Introvert
-* Bored and Boring
+* Bored and boring
 * A loner
 * Slightly nerdy
 
@@ -164,13 +170,13 @@ Yes
 ### If so, when 
 
 * January 28, 1981 civil / August 29, 1981 religious
-* Ressons-li-long, Picardie, France
-* Half an English, half in French
-* Half Episcopalian, half Catholic. 
+* Ressons-le-long, Picardie, France
+* Half in English, half in French
+* Half Episcopalian, half Catholic
 
 ### and to who?  
 
-* Isabelle Ferté 
+* Isabelle Monique Ferté 
 
 ### Any children?  
 
@@ -226,7 +232,7 @@ My marriage was a bust, though we are very good friends
 ## 12. What other jobs /careers have you dabbled in?  
 
 * Counting trees
-* Selling Encyclopedia's door to door
+* Selling encyclopedia's door to door
 * Stocking shelves at Sears and Roebuck 
 * Working at a rubber factory
 * Architectural draftsman
