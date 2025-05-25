@@ -28,7 +28,7 @@ const COR = {
 
     filterFolders: [], //[ "code"],
 
-    ignoreFiles: [], //[ "404.html", "favicon.ico", "index.html", "LICENSE", "readme.html" ],
+    ignoreFiles: [ "404.html", "code", "favicon.ico", "index.html", "LICENSE", "readme.html" ],
 
 }
 
