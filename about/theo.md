@@ -1,6 +1,8 @@
 
 # About Theo Armour
 
+_Perhaps ten years out of date, but has some of the early years_
+
 <p><img src=https://theo-armour.github.io/2024/about/2024-01-01-theo.jpg width=100 ></p>
 
 ## Overview
