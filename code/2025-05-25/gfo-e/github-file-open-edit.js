@@ -15,15 +15,14 @@ function onHashChange() {
 
   let hash = location.hash.slice(1);
 
-  //console.log( "hash", hash );
+  console.log( "hash", hash );
 
   if (hash.includes("@@")) {
 
-    hash = hash.slice(2);
-
     //console.log("notesy", hash );
 
-    divMainContent.innerHTML = `<iframe id=ifr class="iframe-resize" src="${COR.pathApps}notesy.html" onload=ifr.contentWindow.init() ><iframe>`;
+    const url = COR.base + hash;
+    divMainContent.innerHTML = `<iframe id=ifr class="iframe-resize" src="${COR.pathApps}notesy.html" onload=ifr.contentWindow.init($(url}) ><iframe>`;
 
   } else {
 

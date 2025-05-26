@@ -197,7 +197,7 @@
 		function init(url = XGP.base + XGP.path) {
 
 			XGP.url = url; // Set initial URL (can be overridden by hash)
-
+console.log( "XGP.url", XGP.url );
 			aPath.title = document.head.querySelector("[ name=date ]").content;
 
 			githubAccessToken()
@@ -244,8 +244,8 @@
 
 		function onHashChange(event) {
 
-			const hash = parent.location.hash ? parent.location.hash.slice(3) : XGP.url;
-			XGP.url = XGP.base + hash;
+			const hash = parent.location.hash ? parent.location.hash: XGP.url;
+			XGP.url = hash;
 			//console.log("XGP.url", XGP.url);
 
 			XGP.fileName = XGP.url.split("/").pop();
@@ -285,7 +285,7 @@
 			// Based on current code, it seems it only added a message and called getSha.
 			// We'll simplify by having the event listener call requestSync directly.
 			// The `divMessage.innerText += " onBlur";` was likely for debugging and can be removed for cleaner messages.
-			requestSync();
+			//requestSync();
 
 		};
 
@@ -341,7 +341,7 @@
 				autoSave();
 				divContent.innerText = "Error loading file due to network issue.";
 			};
-			xhrFetch.send(null);
+			//xhrFetch.send(null);
 		}
 
 
