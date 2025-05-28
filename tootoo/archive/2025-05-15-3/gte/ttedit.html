@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang=en>
+
+<head>
+  <title>TooTooEdit</title>
+  <meta charset=utf-8 />
+
+  <style>
+    :root {
+      --mnu-width: 17rem;
+    }
+
+    body {
+      font: 100% monospace;
+    }
+
+    h1 {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+
+    #divMenuBar {
+      display: inline;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    #navMenu {
+
+      border: 5px solid blue;
+      width: var(--mnu-width);
+    }
+
+    #divMainContent {
+      border: 5px solid red;
+      height: 95vh;
+      left: calc(var(--mnu-width) + 2rem);
+      position: absolute;
+      top: 1rem;
+      width: calc(100% - var(--mnu-width) - 3rem);
+
+    }
+
+    #ifr {
+
+      border: 1px solid #fcc;
+      height: 100%;
+      overflow: hidden;
+      width: 100%;
+    }
+  </style>
+
+
+
+</head>
+
+<body>
+
+  <script>
+
+    COR = {
+
+      user: "pushme-pullyou",
+      repo: "tootoo-2025",
+      branch: "main",
+      filterFolders: [], //["food-service", "happenings-issues","histories","pages","photos", "scans"],
+      ignoreFiles: [], // ["404.html", "favicon.ico", "index.html", "LICENSE", "readme.html", "test.md"],
+      urlSource: "https://github.com/pushme-pullyou/tootoo-2025/tree/main/tootoo",
+    }
+
+    const baseA = "https://api.github.com/repos/pushme-pullyou/tootoo-2025/contents/";
+
+
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+
+  <script src="./github-tree-edit.js"></script>
+
+
+  <nav id="navMenu">
+
+    <div id="header">
+
+      <h2>
+        <a id=aSource href="" target="_top" title="Click to go to the source code on GitHub"><img
+						src=https://pushme-pullyou.github.io/assets/svg/mark-github.svg></a>
+				<a href="" id="aPath" title="Click this menu title to reload the file">
+        <span id=spnTitle>TooTooEdit</span><span id=spnVersion></span></a>
+      </h2>
+
+    </div>
+
+    <div id=divNavTreeView></div>
+
+    <center title="Hello! Click me to go up to the top">
+      <a class=aDingbat href=javascript:window.scrollTo(0,0);> ❦ </a>
+    </center>
+  </nav>
+
+  <div id="divMainContent">
+
+    <iframe id=ifr src="./notesy.html"></iframe>
+
+  </div>
+
+
+
+</body>
+<script>
+
+  init();
+
+  function init() {
+
+    document.getElementById("aSource").href = COR.urlSource;
+
+    ifr.onload = () => { ifr.contentWindow.init(baseA + `test.md`); };
+
+    window.addEventListener('hashchange', onHashChange, false);
+
+  }
+
+  function onHashChange() {
+
+    console.log("", location.hash.slice(1));
+
+    ifr.contentWindow.init(baseA + location.hash.slice(1));
+
+  }
+
+
+</script>
+
+</html>
