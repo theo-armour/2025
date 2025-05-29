@@ -4,6 +4,8 @@
 
 ## Update 2025-05-24
 
+The following writing was the result of my initial lok at my friend Drew's pitch deck. It turned into a multi-post project. This is the first of seven posts.
+
 I have not finished this post. It should probably never be finished. The issue was that I kept adding new ideas as I was writing. In other words, my initial idea was so loose that it kept expanding and expanding, rather than allowing me to focus and finish the post in a reasonable amount of time.
 
 I definitely do want to finish this effort, but I will build upon this in a bunch of future smaller posts.

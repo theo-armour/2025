@@ -73,4 +73,4 @@ All of this brings up the idea that this should be in the format of a checklist 
 * https://en.wikipedia.org/wiki/Google_Forms
 * https://en.wikipedia.org/wiki/Gamification
 
-Fingers crossed: Today's post [AI:] will be the start of a new series of posts that will help Drew to create a checklist or quiz or game that will help prospects self-select.
+Fingers crossed: Today's post <ai> will be the start of a new series of posts that will help Drew to create a checklist or quiz or game that will help prospects self-select.</ai>
