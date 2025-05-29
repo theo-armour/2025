@@ -17,8 +17,8 @@ const COR = {
     pathApps: "./",
     pathContent: "../../",
 
-    filterFolders: ["tootoo"],
-    ignoreFiles: [ "404.html", "favicon.ico", "index.html", "LICENSE", "readme.html" ],
+    filterFolders: ["archive","tootoo"],
+    ignoreFiles: [ "404.html", "favicon.ico", "index.html", "LICENSE", "readme.html", "test.md", "theo armour.vcf" ],
 
     urlBaseAPI: "https://api.github.com/repos/theo-armour/2025/contents/",
     urlSource: "https://github.com/theo-armour/2025/tree/main/",
