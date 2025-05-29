@@ -1,4 +1,9 @@
-## 2025-05-25 Due Diligence in the Modern Era
+# 2025-05-25 Due Diligence in the Modern Era
+
+_I got distracted and this post never was completed —of tidied or mage coherent._
+
+_Nonetheless, I am leaving it here as a record of my thoughts at the time. My failures are just as instructive as my successes. ;-)_
+
 
 ## Definitions
 

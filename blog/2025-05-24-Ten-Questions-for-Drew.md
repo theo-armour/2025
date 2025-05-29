@@ -1,26 +1,11 @@
 # Ten Questions for Drew
 
-## 2025-05-25 ~ Update
+_There is an important update to this post at the end of the post._
 
-Thinking about these questions this morning.  Two Things:
-
-The questions have an old-timey feeling. I don't see anything about CRM or IT or web presence or even anything to do with AI. 
-
-The other missing aspect is that the prospect may know nothing about what Drew is trying to accomplish, and he needs to provide a list with what the prospect needs to know before considering working with Drew. 
-
-Bonus thought.
-
-All of this brings up the idea that this should be in the format of a checklist or quiz — or even a game .
-
-* https://en.wikipedia.org/wiki/The_Checklist_Manifesto
-* https://en.wikipedia.org/wiki/Google_Forms
-* https://en.wikipedia.org/wiki/Gamification
-
-Fingers crossed: Today's post [AI:] will be the start of a new series of posts that will help Drew to create a checklist or quiz or game that will help prospects self-select.
 
 ## Intro
 
-In response to the previous post, this was the start of a number of questions That Drew could ask his prospects in order to help evaluate whether they will be successful or not. 
+In response to the previous post, this was the start of a number of questions that Drew could ask his prospects in order to help evaluate whether they will be successful or not. 
 
 Perhaps the more useful opportunity for a system like this would be to help prospects self-select. In other words, a prospect could be given these questions. If they answer the questions successfully, they would know that they are a good prospect and should consider asking Drew for help and guidance.
 
@@ -69,3 +54,23 @@ Two logical additional questions that would complete the set of 10 might be:
 
 * Legal and Risk Management: Do you have appropriate legal protections in place? (contracts, insurance, intellectual property considerations)
 * Success Metrics and Evaluation: How will you measure the success of this project? Do you have clear metrics and evaluation criteria?
+
+***
+
+## 2025-05-25 ~ Update
+
+Thinking about these questions this morning.  Two things:
+
+The questions have an old-timey feeling. I don't see anything about CRM or IT or web presence or even anything to do with AI. 
+
+The other missing aspect is that the prospect may know nothing about what Drew is trying to accomplish, and he needs to provide a list with what the prospect needs to know before considering working with Drew. 
+
+Bonus thought.
+
+All of this brings up the idea that this should be in the format of a checklist or quiz — or even a game .
+
+* https://en.wikipedia.org/wiki/The_Checklist_Manifesto
+* https://en.wikipedia.org/wiki/Google_Forms
+* https://en.wikipedia.org/wiki/Gamification
+
+Fingers crossed: Today's post [AI:] will be the start of a new series of posts that will help Drew to create a checklist or quiz or game that will help prospects self-select.

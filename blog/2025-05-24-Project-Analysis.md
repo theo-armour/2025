@@ -20,6 +20,8 @@ Three core due diligence questions:
 
 **Moral**: Don't get lost in the weeds - make sure you're solving the right problem first.
 
+***
+
 ## Intro
 
 Because of my newfound treasure place of personal pleasures, ~~Bounders Inc~~, er, Founders Inc. {The strikeout was initiated by a spelling correction. The title is absolutely inappropriate in this context, but it made me smile.}, I have been thinking about how to analyze projects.
@@ -28,7 +30,7 @@ In looking over my friend Drew's efforts to draft a pitch book for his new ventu
 
 Yesterday, I started the paper that would define and layout my personal rules, style guides and standards for writing such things. I was able to proceed quite quickly and in a fairly deep manner into drafting a style guide.
 
-In doing so, however, the matter of the project itself at hand started coming to the fore. I began to formulate some feelings or considerations about the actual project at hand. 
+In doing so, however, the matter of the project itself at hand started coming to the fore. I began to formulate some feelings or considerations about the actual project at hand.
 
 And I was thus reminded of things such as:
 
@@ -48,9 +50,10 @@ Punchline: The man replied, “I’m going upstream to find out why so many peop
 
 * https://en.wikipedia.org/wiki/Serenity_Prayer
 
-## Time to go upriver
 
-At some point, while drafting my style guide, which was going very well, I began to realize that perhaps I should be actually looking at what I was doing, perhaps there is something more immediately important. 
+## Time to go Upriver
+
+At some point, while drafting my style guide, which was going very well, I began to realize that perhaps I should be actually looking at what I was doing, perhaps there is something more immediately important.
 
 And that's when I started thinking about:
 
@@ -90,5 +93,5 @@ Therefore, my best task for today would be to come up with 10 interesting questi
 
 I was able to come up with a list of ten questions, but I haven't really thought about them that carefully. So I will continue to work on these and present them tomorrow. 
 
-The takeaway: Don't forget to point in the right direction. 
+The takeaway: Don't forget to point in the right direction.
 
