@@ -124,6 +124,10 @@ a:active {
   text-decoration: underline;
 }
 
+img {
+
+  max-width: 100%;
+}
 
 /* GitHub icon vertical alignment */
 #imgGitHub {
