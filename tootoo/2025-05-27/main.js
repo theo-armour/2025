@@ -18,7 +18,7 @@ const COR = {
     pathContent: "../../",
 
     filterFolders: ["tootoo"],
-    ignoreFiles: [], //[ "404.html", "favicon.ico", "index.html", "LICENSE", "readme.html" ],
+    ignoreFiles: [ "404.html", "favicon.ico", "index.html", "LICENSE", "readme.html" ],
 
     urlBaseAPI: "https://api.github.com/repos/theo-armour/2025/contents/",
     urlSource: "https://github.com/theo-armour/2025/tree/main/",
@@ -28,8 +28,8 @@ const COR = {
 
     iconExternalLink: "<img src='https://pushme-pullyou.github.io/assets/svg/icon-external-link.svg' width=16 >",
     iconGitHub: `<img src="https://pushme-pullyou.github.io/assets/svg/mark-github.svg">`,
-	  iconInfo: `<img src="https://pushme-pullyou.github.io/assets/svg/noun_Information_585560.svg">`,
-	  iconOpenClose: `<img src="https://pushme-pullyou.github.io/assets/svg/open-close-toggle.svg">`,
+	iconInfo: `<img src="https://pushme-pullyou.github.io/assets/svg/noun_Information_585560.svg">`,
+    iconOpenClose: `<img src="https://pushme-pullyou.github.io/assets/svg/open-close-toggle.svg">`,
     iconPencil: `<img src="https://pushme-pullyou.github.io/assets/svg/https://pushme-pullyou.github.io/assets/svg/mark-github.svg" >`,
     iconRepo: `<img src=https://pushme-pullyou.github.io/assets/svg/dingbat.svg">`,
 

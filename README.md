@@ -1,6 +1,6 @@
 # 2025
 
-We are alive in 25
+We are alive in 2025
 
 * https://t.me/theo_armour
 * https://github.com/theo-armour
@@ -14,7 +14,10 @@ We are alive in 25
 * https://www.youtube.com/@theoarmour
 * My house: https://heritageonthemarina.org/
 * tarmour at gmail dot com
+* Hundreds more of my links still to be added...
 
 ## 2025-05-24
 
-Slowly moving content over here
+Slowly moving content over here.
+
+Start by clicking on "Blog" in the left menu. 
