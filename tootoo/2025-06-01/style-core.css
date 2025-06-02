@@ -124,6 +124,10 @@ a:active {
   text-decoration: underline;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Specific styling for focused navigation links */
 #divNavTreeView a:focus {
   background-color: var(--color-active) !important;
