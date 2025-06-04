@@ -19,7 +19,6 @@ async function fetchGitHubRepoContents(user, repo) {
 
     const trees = items.filter(item => item.type === 'tree');
     const blobs = items.filter(item => item.type === 'blob');
-    console.log( "trees", trees );
 
     trees.forEach(item => {
       // Skip creating a details tag if the folder path is in filterFolders
