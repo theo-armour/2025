@@ -5,9 +5,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<meta name="description" content="Get and put Markdown files to a private or public GitHub repo">
-	<meta name="date" content="2025-05-27">
+	<meta name="date" content="2025-06-03">
 
-	<title>notesy</title>
+	<title>getPutFile2GitGub</title>
 
 	<style>
 		body {
@@ -44,7 +44,6 @@
 		}
 
 		main h2 {
-
 			display: inline;
 			margin: 0;
 		}
@@ -78,25 +77,13 @@
 			vertical-align: middle;
 		}
 
-		summary {
-			cursor: pointer;
-			font-size: 1rem;
-			margin: 0;
-			padding: 0;
-		}
-
-		summary p {
-			margin: 0;
-			padding: 0;
-		}
-
 		.aDingbat {
 			text-decoration: none;
 			font-size: 1.5rem;
 		}
 
 		#header {
-			background: white;
+			background: white#;
 			position: fixed;
 			top: 0;
 			left: 0;
@@ -115,7 +102,8 @@
 </head>
 
 <body>
-  <script src="./main.js"></script>
+	<script src="../../config.js"></script>
+	<script src="../main.js"></script>
 	<main>
 
 		<div id="header">
@@ -140,14 +128,6 @@
 
 		<button id="saveButton" onclick="requestSync()">save</button>
 
-		<br>
-		<button onclick=test1()>notesy readme</button>
-		<button onclick=test2()>test</button>
-		<button onclick=test3()>text-to-hack</button>
-		<button onclick=test4()>agenda</button>
-		<button onclick=location.hash="">clear hash</button>
-		<button onclick=delSha()>delSha</button>
-
 	</main>
 
 	<script>
@@ -155,35 +135,10 @@
 
 		// [X]MLHTTPRequest [G]itHub [P]ush (COR)
 
-		const xxxCOR = {
-
-			base: "https://api.github.com/repos/pushme-pullyou/tootoo-2025/contents/",
-			path: "test.md", // Default file
-			//branch: "main",
-
-			githubContent: "", // Content as of last successful load/save from GitHub
-			sha: "",           // SHA of COR.githubContent
-
-			isSyncing: false,  // True if a sync operation is in progress
-			lastSyncTime: 0, // Timestamp of the last sync attempt
-
-			//notesyURL: "file:///c%3A/Users/tarmo/OneDrive/Documents/GitHub/theo-armour-qdata/apps/notesy/2025-05-21/notesy.html#",
-
-			notesyURL: "https://pushme-pullyou.github.io/tootoo-2025/apps/tootoo/#",
-			commitMessage: "notesy: file update" // Default commit message
-
-		};
-
-
 		init();
 
-		function init(url = COR.urlBaseAPI + COR.defaultFileEdit.slice(2)) {
+		function init(hash = COR.defaultFileEdit) {
 
-			
-			COR.url = url; // Set initial URL (can be overridden by hash)
-			
-			console.log("COR.url", COR.url);
-			
 			aPath.title = document.head.querySelector("[ name=date ]").content;
 
 			githubAccessToken();
@@ -194,15 +149,9 @@
 
 			divContent.addEventListener('blur', requestSync); // Changed from onBlur -> getSha to requestSync
 
+			onHashChange();
+
 		};
-
-
-		test1 = () => location.hash = COR.urlBaseAPI + "apps/notesy/README.md";
-		test2 = () => location.hash = COR.urlBaseAPI + "apps/notesy/test.md";
-		test3 = () => location.hash = COR.urlBaseAPI + "text-to-hack.md";
-		test4 = () => location.hash = COR.urlBaseAPI + "apps/notesy/original-agenda.md";
-
-		delSha = () => localStorage.setItem("githubAccessToken", "");
 
 		function githubAccessToken() {
 
@@ -219,13 +168,15 @@
 			}
 		}
 
-
 		function onHashChange(event) {
 
-			//const hash = location.hash ? location.hash.slice(3) : COR.url;
-			const hash = location.hash.slice(1);
+			console.log("parent.location.hash ", parent.location.hash);
 
-			//console.log( "hash", hash );
+			let hash = parent.location.hash ? parent.location.hash.slice(1) : COR.defaultFileEdit;
+
+			hash = hash.replace(/@@/, "");
+
+			console.log("onHashChange", hash);
 
 			COR.url = COR.urlBaseAPI + hash;
 			//console.log("COR.url", COR.url);
@@ -240,9 +191,11 @@
 
 		function checkForChange(event) {
 
+			console.log( "Content", divContent.innerText.length,"COR", COR.githubContent.length );
+		
 			if (divContent.innerText === COR.githubContent) { return; } // Compare with githubContent
 
-			if (!COR.url.endsWith("md")) return;
+			//if (!COR.url.endsWith("md")) return;
 
 			console.log("checkForChange", COR.fileName);
 
@@ -252,99 +205,63 @@
 
 		};
 
-
 		function onBlur(event) {
 
-			// This function is now directly requestSync, so onBlur can be removed if not used otherwise
-			// For now, keep original onBlur structure if it had other purposes, but its call to getSha is replaced.
-			// If it only called getSha, it can be removed and requestSync used directly in addEventListener.
-			// Based on current code, it seems it only added a message and called getSha.
-			// We'll simplify by having the event listener call requestSync directly.
-			// The `divMessage.innerText += " onBlur";` was likely for debugging and can be removed for cleaner messages.
-			requestSync();
+			if (divContent.innerHTML === COR.content) { return; }
+
+			if (divContent.innerText.startsWith("#")) return;
+
+			if (divContent.innerText.startsWith("<")) return;
+
+			divMessage.innerText += " onBlur";
+
+			getSha();
 
 		};
-
-		function onFocus(event) {
-
-			// getSha(); // Removed: onFocus save attempts are often too frequent and covered by autosave/blur.
-			console.log("onFocus event triggered - no save action.", new Date().toLocaleTimeString());
-
-		}
 
 
 		function fetchMarkdown(event) {
 
-			const xhrFetch = new XMLHttpRequest(); // Localized variable
+			const xhr = new XMLHttpRequest();
 
-			xhrFetch.open("get", COR.url, true);
-			xhrFetch.setRequestHeader("Authorization", "token " + COR.accessToken);
-			xhrFetch.responseType = "json";
-			xhrFetch.onload = () => { // Changed to arrow function for brevity, `this` context not an issue here
-				if (xhrFetch.status === 200) {
-					onLoad(xhrFetch.response); // Pass the response object
-				} else if (xhrFetch.status === 401 || xhrFetch.status === 403) {
-					alert("GitHub Authorization Error: Could not fetch file. Your token might be invalid or expired. Please try deleting the token (delSha button) and re-entering it.");
-					divMessage.innerText = `Error fetching file (Auth ${xhrFetch.status})`;
-					COR.githubContent = ""; // Clear content as fetch failed
-					COR.githubContent = "";
-					COR.sha = "";
-					autoSave();
-					divContent.innerText = "Error loading file. Please check your GitHub token and refresh.";
-				} else if (xhrFetch.status === 404) {
-					alert("File not found on GitHub. Please check the URL/path.");
-					divMessage.innerText = `Error fetching file (Not Found ${xhrFetch.status})`;
-					COR.githubContent = "";
-					COR.sha = "";
-					autoSave();
-					divContent.innerText = `File not found: ${COR.url}`;
-				}
-				else {
-					alert(`Error fetching file: GitHub API returned status ${xhrFetch.status}.\\n${xhrFetch.responseText}`);
-					divMessage.innerText = `Error fetching file (Status ${xhrFetch.status})`;
-					COR.githubContent = "";
-					COR.sha = "";
-					autoSave();
-					divContent.innerText = "Error loading file content.";
-				}
-			};
-			xhrFetch.onerror = () => {
-				alert("Network error: Could not fetch file from GitHub.");
-				divMessage.innerText = "Network error fetching file.";
-				COR.githubContent = "";
-				COR.sha = "";
-				autoSave();
-				divContent.innerText = "Error loading file due to network issue.";
-			};
-			xhrFetch.send(null);
+			xhr.open("get", COR.url, true);
+			xhr.setRequestHeader("Authorization", "token " + COR.accessToken);
+			xhr.responseType = "json";
+			xhr.onload = onLoad;
+			xhr.send(null);
+
 		}
 
 
-		function onLoad(response) { // Parameter is now the response object from successful fetch
+		function onLoad(xhr) {
+
+			//console.log( "xhr", xhr.target.response );
+
+			if (xhr.status === 200) { return; }
 
 			// https://developer.mozilla.org/en-US/docs/Glossary/Base64#solution_1_%E2%80%93_escaping_the_string_before_encoding_it
-			// console.log( "content", response );
+			// console.log( "content", xhr.target.response );
 
-			let content = decodeURIComponent(escape(window.atob(response.content)));
-			//content = content.replace(/\\< !--@@@/, "" ).replace( /\\@@@--\\>/, "" );
+			let content = decodeURIComponent(escape(window.atob(xhr.target.response.content)));
+			//content = content.replace(/<!--@@@/, "" ).replace /\@@@--\>/, "" );
 
 			divContent.innerText = content;
-			COR.githubContent = content; // Set the baseline content
-			COR.sha = response.sha;      // Set the SHA for this content
 
-			divMessage.innerText = `Open: ${COR.fileName} ${new Date().toLocaleString().slice(11, -3)} B:${content.length.toLocaleString()}`;
+			COR.content = divContent.innerText;
 
-			aSource.href = response.html_url;
+			divMessage.innerText = `T:${new Date().toLocaleString().slice(11, -3)} B:${content.length.toLocaleString()}`;
+
+			aSource.href = xhr.target.response.html_url;
+
+			//console.log( "COR.url", COR.url );
 
 			aPath.href = COR.notesyURL + COR.url;
 
-			spnTitle.innerHTML = COR.fileName.split(".").shift();
+			spnTitle.innerHTML = COR.url.split("/").pop().split(".").shift();
 
 			document.title = spnTitle.innerText;
 
 			window.scrollTo(0, 0);
-
-			autoSave();
 
 		};
 
@@ -352,7 +269,7 @@
 		function autoSave() {
 
 			if (!COR.saveInterval) {
-				// Calls requestSync instead of getSha
+
 				COR.saveInterval = setInterval(requestSync, 15000); // 15 seconds
 
 			} else {
@@ -365,7 +282,6 @@
 		};
 
 
-		// Replaces getSha and putFileToGitHub with a new flow
 		function requestSync() {
 			const editorContent = divContent.innerText;
 

@@ -106,6 +106,32 @@ async function fetchGitHubRepoContents(user, repo) {
 
   div.appendChild(createTree(topLevelItems, ''));
 
+  setFileVisible();
+
+}
+
+// Open parent details elements to make the file-container visible
+function setFileVisible() {
+
+  //hash = location.hash
+  const fileContainers = document.querySelectorAll('.file-container');
+  //console.log("fileContainers", fileContainers);
+  for (const container of fileContainers) {
+    const link = container.querySelector('a');
+    if (link && link.getAttribute('href') === '#' + location.hash.slice(1)) {
+      let parentNode = container.parentNode;
+      while (parentNode && parentNode.id !== "detNavMenu") {
+        if (parentNode.tagName === 'DETAILS') {
+          parentNode.open = true;
+        }
+        parentNode = parentNode.parentNode;
+      }
+      // Set focus to the link
+      link.focus();
+      break;
+    }
+  }
+
 }
 
 function formatDisplayName(fileName, isFolder = false) {

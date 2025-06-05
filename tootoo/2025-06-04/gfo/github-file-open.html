@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
   <meta name="description" content="File wrangler: Opens HTML or Markdown files. Passes location.hash.">
   <meta name="keywords" content="ShowDown,Markdown,AJAX,JavaScript,HTML,CSS,GitHub,FOSS">
-  <meta name="version" content="2025-05-26">
+  <meta name="version" content="2025-05-30">
   <meta name="author" content="Theo Armour">
   <meta name="creator" content="https://github.com/pushme-pullyou/tootoo-2025">
 
@@ -29,9 +29,9 @@
     }
 
     img {
-			max-width: 100%;
-			vertical-align: middle;
-		}
+      max-width: 100%;
+      vertical-align: middle;
+    }
 
     #divMainContent {
       border: 1px solid red;
@@ -76,10 +76,16 @@
 
 
 
+  <script src="../../config.js"></script>
   <script src="../main.js"></script>
   <script src="github-file-open.js"></script>
 
   <script>
+
+    // for testing
+
+    location.hash = "";
+
 
     if (location.protocol === "https:") {
 
@@ -100,18 +106,21 @@
 
     }
 
-    location.hash = location.hash ? location.hash : COR.defaultFile;
+    window.addEventListener("hashchange", onHashChange, false);
 
+    location.hash = location.hash ? location.hash : COR.defaultFileEdit;
+
+    function setFileVisible() { };
 
   </script>
 
   <script>
 
     const files = [
-      "README.md",
+      "@@README.md",
       "LICENSE",
       "favicon.ico",
-      "test.md",
+      "@@test.md",
       "text-to-hack.md",
       "test-cases/text-to-hack-2.md",
       "test-cases/desktop.ini",
