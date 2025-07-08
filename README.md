@@ -2,7 +2,6 @@
 
 We are alive in 2025
 
-* https://t.me/theo_armour
 * https://github.com/theo-armour
 * https://x.com/ta
 * https://www.instagram.com/armour.theo/
@@ -12,6 +11,7 @@ We are alive in 2025
 * https://medium.com/@ta
 * https://wordpress.com/reader/users/theoa
 * https://www.youtube.com/@theoarmour
+* https://t.me/theo_armour
 * My house: https://heritageonthemarina.org/
 * tarmour at gmail dot com
 * Hundreds more of my links still to be added...
@@ -20,4 +20,4 @@ We are alive in 2025
 
 Slowly moving content over here.
 
-Start by clicking on "Blog" in the left menu. 
+Start by clicking on "Blog" in the left menu.
