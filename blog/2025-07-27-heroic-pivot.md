@@ -2,7 +2,7 @@
 
 ## Preface
 
-Looking back on what I wrote yesterday, there's nothing that I could say is wrong about it. But that does not mean that it cannot fail. You can be completely right and nonetheless fail.
+Looking back on what I wrote yesterday, there's nothing that I could say is wrong about it. But that does not mean that it cannot fail. You can be completely right and nonetheless create something tht fails.
 
 Just below are some observations on yesterday's writing, followed by some possible pivots.
 
@@ -10,7 +10,7 @@ Just below are some observations on yesterday's writing, followed by some possib
 
 ### The Problem
 
-Every item of food that I have eaten at a restaurant, every shirt that I have bought, every appointment I ever made It's been an online transaction somewhere. Very likely, at some future time, comprehensive and detailed data on every aspect of an individual's life may be be accessible. "It's all written in the big book somewhere." will become an available reality. (The map becomes bigger than the territory, But that's another story ;-)
+Every item of food that I have eaten at a restaurant, every shirt that I have bought, every appointment I ever made, it's been an online transaction somewhere. Very likely, at some future time, comprehensive and detailed data on every aspect of an individual's life may be be accessible. "It's all written in the big book somewhere." will become an available reality. (The map becomes bigger than the territory, But that's another story ;-)
 
 Nonetheless, in this current era of paranoia, surveillance, and more paranoia, the hope of finding somebody who will release even small amounts of personal data about themselves personally, besides me, is rather unlikely. And/or, it will take a difficult or highly clever (future) search process.
 
@@ -46,13 +46,13 @@ Here are even more snippets of people's lives: https://github.com/evereverland/2
 
 {It looks like there are quite a few broken links and bits that could be fixed up, but each one is real and contains data.}
 
-So the idea is to focus in on a single aspect of somebody's life and build a replica gist of those moments and time and place.
+So the idea is to focus in on a single aspect of somebody's life and build a replica just of those moments and time and place.
 
 For example, I Have scanned a cookbook written by a fellow resident. Having been married to a lawyer, she's worried about copyright because she obtained recipes from her friends, So I'm not allowed to publish them.
 
 But in another world, I could see taking her recipes, photographs of her, images of her kitchen, recordings of her voice, and building a replica of Anne in her kitchen talking and demonstrating her recipes using replicas of her pots and pans in a mock-up of her kitchen.
 
-When I think of old people who love to do embroidery or gardening, or skiing, or whatever, I can think of ways of making replicas of just acting out those special moments and responding to your inquiries in real-time.
+When I think of people who love to do embroidery or gardening, or skiing, or whatever, I can think of ways of making replicas of just acting out those special moments and responding to your inquiries in real-time.
 
 Looking forward, it might be possible to get people who are good at interviewing on special topics. For example, someone might be very good at helping people who are knitters create their knitting replic-ettes
 
@@ -60,26 +60,25 @@ Another specialist might be somebody who can talk to artists about their paintin
 
 In other words, instead of concentrating on the full replica, let's just do one or two parts of an original. Let us take all the homilies a priest has saved, and turn that into some kind of live discussion.
 
-
 ## 2. Team Player ~ "Talent Scout"
 
 ### Problem (or an observation really) It's not SEO
 
-The usual guidance is if you want customers, it's all about Church Engine Optimization (SEO) and sending money to Google.
+The usual guidance is if you want customers, it's all about Search Engine Optimization (SEO) and sending money to Google.
 
 ### Solution: It's one-on-One ASAP
 
 The kinds of things to be looked for here are the opposite of a mass market at this stage. On the contrary, it is all about sourcing just a few talented, motivated early adopters.
 
-The goal is not finding the originals who mho might desire a replica. The goal is about onboarding individuals who will initiate the sourcing, guiding and implementing the process of originals being replicated.
+The goal is not finding the originals who might desire a replica. The goal is about onboarding individuals who will initiate the sourcing, guiding and implementing the process of originals being replicated.
 
 For virtually every industry group, there is an association, publications, forums, and many other collective activities.
 
-Within seconds, you can get pages of lists of people in that group on LinkedIn. Trade associations for that group. and their journals and publications.
+Within seconds, you can get pages of lists of people in that group on LinkedIn. Trade associations for that group and their journals and publications.
 
 This indicates that you can direct message almost anybody with expert domain knowledge.
 
-In other words, the "talent scouts" I talked are talked about are readily. for example. look at the search results foer "family historian" on Linked In:
+In other words, the "talent scouts" I talked are talked about are readily. For example. look at the search results for "family historian" on LinkedIn:
 
 https://www.linkedin.com/search/results/all/?keywords=family%20historian
 
@@ -87,10 +86,9 @@ An ambitious individual — with a targeted and engaging proposal — could be i
 
 ## 3. What do early adopters want?
 
-
 ### Problem: It's not about a pitch deck.
 
-Earlier adopters are not about looking at PowerPoints. They are users, so you need to give them something to use. Hurry, the doctors need to bang on the prototype. They need something to play with so they can tell you what they really need.
+Early adopters are not about looking at PowerPoints. They are users, so you need to give them something to use. Hurry, the adopters need to bang on the prototype. They need something to play with so they can tell you what they really need.
 
 ### Solution: It's about the prototype
 
