@@ -4,8 +4,8 @@ const CONFIG = {
     repo: "2025",
     branch: "main",
 
-    filterFolders: [ "archive", "tootoo"],
-    ignoreFiles: [ "404.html", "favicon.ico", "index.html", "readme.html", "test.md"],
+    filterFolders: [ ".vscode", "archive", "tootoo"],
+    ignoreFiles: [ "404.html", "favicon.ico", "index.html", "markdown-pdf.css", "readme.html", "test.md"],
 
     defaultFile: "README.md",
     defaultFileEdit: "@@README.md",
