@@ -1,6 +1,6 @@
 # 2025-08-25 New Career
 
-I think it's time to change careers. Publishing the heritage happenings is just too much. I'm not a bad writer, so instead of publishing, I should go to becoming an author of articles.I could publish them on my blog on TheoArmour.com and then upload them to Medium and Substack.
+I think it's time to change careers. Publishing the heritage happenings is just too much. I'm not a bad writer, so instead of publishing, I should go to becoming an author of articles. I could publish them on my blog on TheoArmour.com and then upload them to Medium and Substack.
 
 As much as possible, the writing will be human.
 
