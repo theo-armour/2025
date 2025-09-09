@@ -1,19 +1,33 @@
-# 2025-09-01 Homespun Writing
+# 2025-09-01 Collecting Homespun Writing
 
 
-## What is Homespun Journalism?
+## What is Homespun Writing?
 
 Homespun writing refers to a style of prose or storytelling that is the way most people write in daily life. It is informal, personal, and often anecdotal. It may lack the polish and structure of professional writing, but it has a charm and authenticity that comes from its unfiltered nature.
 
 ## Vision
 
-A dream of mine is to capture, collect and keep homespun writing:
+My dream is to capture, collect, and preserve homespun writing — the voices of ordinary people documenting their lives in their own words.
 
-* Repositories of the stories of people.
-* Bits and pieces of text written by normal people in the normal ways they write.
-* Collections of thoughts of ordinary people reflecting upon about their lives.
+**What we're gathering:**
 
-All the thoughts are kept on a repository on Github. From here they may be curated and published in various ways. They are open source and licensed to be freely reused. They may be backed up to the Internet Archives.
+* **Personal narratives** — The everyday stories that people tell about their experiences, struggles, joys, and observations
+* **Unfiltered expression** — Text written by regular people in the natural ways they communicate, without editorial polish or academic pretension
+* **Reflective moments** — The thoughts and insights of ordinary individuals as they make sense of their lives, communities, and times
+
+**The approach:**
+
+All collected writing is housed in an open-source repository on GitHub, creating a living archive of contemporary human experience. From this central collection, materials can be curated and published in various formats — digital collections, themed anthologies, or historical compilations.
+
+**Our commitment:**
+
+Every contribution is freely licensed for reuse, ensuring these voices remain accessible to researchers, writers, and future generations. Regular backups to the Internet Archive provide additional preservation, safeguarding these personal histories against digital loss.
+
+**Why this matters:**
+
+In an age of algorithmic feeds and corporate media, authentic human voices risk being lost. This project ensures that the real thoughts, experiences, and perspectives of everyday people are preserved — not as data points, but as the irreplaceable human stories they are.
+
+We build a repository of human experience, one small voice at a time.
 
 
 ## Characteristics of Homespun Journalism
@@ -30,9 +44,9 @@ The writing is not held to the same standard as normal journalism.
 * Emotive or sensational phrasing
 * Or even boring
 
-And all of these writing issues that we abhor in normally published writing are acceptable, perhaps even welcome.
+All of these writing issues that we abhor in normally published writing are acceptable, perhaps even welcome.
 
-They give us authentic voices, unfiltered by literary convention or editorial polish.
+They give us authentic voices, un-neutered by literary convention or editorial polish.
 
 ## Importance of Homespun Writing
 
@@ -46,14 +60,20 @@ The vision is to help people remember the important aspects of their lives. By r
 
 ## Memories May Be Useful
 
+Somewhere in there is the idea that memories may be useful. The elderly have a lot of experience and wisdom to share. By writing down their thoughts and experiences, they can help younger generations learn from their mistakes and successes.
+
+### Elders as Influencers
+
 The old people teaching the young people. Instead of passing away in front of the screen or book, elders are the ultimate influencers.
 
 Even better, when its the elderly themselves banding together, forming groups, and teaching each other in order reestablish a position of respect and influence in society.
 
 ## Publishing
 
-My ambition is from time to time collect the writings of my friends and neighbors and publish snippets of them here on my blog. Perhaps
+My ambition is from time to time collect the writings of friends and neighbors and publish snippets of them here on this blog.
 
 Longer term some of the thoughts are put into newsletters for seniors and others. Occasionally thoughts are collected and published on the Internet using things like Medium or Substack. Perhaps some of the thoughts are collected and curated by editors and put into articles of greater depth.
 
 The mission is not to gain a wider readership. The mission is to gain a wider "writership".
+
+So, what's on your mind? ;-)
