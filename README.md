@@ -13,6 +13,7 @@ We are alive in 2025
 * https://www.youtube.com/@theoarmour
 * https://t.me/theo_armour
 * My house: https://heritageonthemarina.org/
+* And a work-in-progress bio: https://theo-armour.github.io/2025/#about/theo.md
 * tarmour at gmail dot com
 * Hundreds more of my links still to be added...
 
