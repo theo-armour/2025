@@ -57,7 +57,7 @@ Thank you, Martin James Millen!
 
 Your good words allowed me to scuttle back to my happy place.
 
-There, I am reminded of the corporate motto used in the late 80s by of my former employer, Autodesk To describe the uses to which you could put their product AutoCAD, a computer-aided design system I helped design:
+There, I am reminded of the corporate motto used in the late 80s by of my former employer, Autodesk to describe the uses to which you could put their product AutoCAD, a computer-aided design system (I helped design):
 
 "The only limit is your imagination."
 
