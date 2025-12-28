@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>TooToo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=contain">
+  <meta name="description"
+    content="TooToo 2025 uses the GitHub API to provide access to all the current files in a repository hosted with GitHub Pages.">
+  <meta name="keywords" content="ShowDown,Markdown,AJAX,JavaScript,HTML,CSS,GitHub,FOSS">
+  <meta name="version" content="2025-01-09">
+  <meta name="author" content="Theo Armour">
+  <meta name="creator" content="https://github.com/pushme-pullyou/tootoo-2025/">
+
+  <!-- Copyright 2025 Theo Armour. MIT license -->
+
+  <link id=CORstyle rel="stylesheet" href="style.css">
+
+  <style>
+    :root {
+      /* --mnu-width: 20rem; */
+      --main-hue: 240;
+      /* 0 to 360 0=red 120=green 240=blue */
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- https://github.com/showdownjs/showdown -->
+
+  <!-- https://showdownjs.com/docs/available-options/ -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+
+  <script>
+
+    const COR = {
+
+      // Used by MNU ~ mnu-menu.js
+      description: document.head.querySelector( "[ name=description ]" ).content +
+        `<p>Release: 2025-01-09<p>`,
+      urlSource: "https://github.com/pushme-pullyou/tootoo-2025/",
+      urlAssets: "https://pushme-pullyou.github.io/assets/",
+      iconExternalFile: `<img class=infoImg  src="https://pushme-pullyou.github.io/assets/svg/icon-external-link.svg">`,
+      iconGitHub: `<img src="https://pushme-pullyou.github.io/assets/svg/mark-github.svg">`,
+      iconInfo: `<img class=infoImg src="https://pushme-pullyou.github.io/assets/svg/noun_Information_585560.svg">`,
+      iconRepo: "❦",
+      title: document.title, //? document.title : location.href.split( "/" ).pop().slice( 0, - 5 ).replace( /-/g, " " ),
+      version: document.head.querySelector( "[ name=version ]" ).content,
+
+      // Used by FRX
+      //defaultFile: "README.md",
+
+      //pathContent: "https://pushme-pullyou.github.io/tootoo-2025/",
+      pathContent: "../../",
+
+      //pathTooToo: "https://pushme-pullyou.github.io/tootoo-2025/",
+      pathTooToo: "./",
+
+      // Used by GRV
+      user: "pushme-pullyou",
+      repo: "tootoo-2025",
+      branch: "main",
+
+      //defaultIgnoreFolders: [],
+      defaultIgnoreFolders: [ "archive", "lib-templates" ], // curated
+
+      filesAll: true,
+      filterFiles: [ "gif", "md", "html", "jpg", "LICENSE", "pdf", "png", "svg", "txt", "xlsx", "" ], // curated
+      ignoreFiles: [ "404.html", "index.html", "LICENSE", "readme.html" ], // curated
+
+    }
+
+  </script>
+
+  <script src="mnu-menu.js"></script>
+  <script src="gfo/github-file-open.js"></script>
+  <script src="gtv/github-tree-view.js"></script>
+
+
+  <div id=MNUdivShowHide></div>
+
+
+  <main id=main>
+
+    <div id="divMainContent"></div>
+
+  </main>
+
+
+
+  <script>
+
+    init();
+
+    function init () {
+
+      if ( location.protocol === "https:" ) {
+
+        COR.pathContent = "https://pushme-pullyou.github.io/tootoo-2025/";
+
+        window.history.pushState( "", "", "../../" + location.hash );
+
+        COR.ignoreFolders = COR.defaultIgnoreFolders;
+
+      } else {
+
+        COR.ignoreFolders = [];
+
+      }
+
+      // MNU => "Menu ~ mnu-menu.js"
+
+      MNU.init();
+      //MNU.getSample();
+      //sumNavMenu.hidden = true;
+
+      //MNUaSource.hidden = true;
+      //MNUspnVersion.hidden = true;
+
+      // FRX => "File Read XHR"
+      //FRX.init();
+      //FRX.getMenu();
+
+      // GRV => "GitHub Repo View"
+      //GRV.getFiles = GRV.getFilesCurated;
+      //GRV.getFiles = GRV.getFilesAll;
+      //GRV.init();
+
+      //GRVdivIntro.hidden = true;
+      //GRVsumRepo.hidden = true;
+      //GRVbutMenu.hidden = true;
+      //GRVdet.open = true;
+
+
+      //FRX.onHashChange();
+
+      // if running on server, keeps address bar pointed to latest dev
+
+    }
+
+  </script>
+
+</body>
+
+</html>
