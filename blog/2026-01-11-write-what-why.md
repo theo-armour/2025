@@ -17,12 +17,12 @@
 * It is hedonic Because it explains, it mentions the senses and looks.
 * It is eudaimonic because it connects to traditions, to history, to culture, to people, and to values.
 * It is beautiful because of the way it looks and smells, and reminds and reflects.
+* my writing: It's to be about taking some unimportant little thing and making it an important.Can I take an important thing in my life?Oops! Can I take one of my favorite things and write a story about how important it is?
 
 ## Where
 
 ### Medium
 * The CalState of my writing. Practical, agentic, useful. Talks to old people, perhaps?
-
 
 ### Substack
 * The UC of my writing. More serious, more detailed, more academic, more cultural, more historical, more literary.
@@ -36,3 +36,8 @@ https://gemini.google.com/share/612192901628
 
 >The relationship between truth and beauty has been a central tension in human thought for millennia. While they are distinct concepts—one cognitive (truth) and one aesthetic (beauty)—thinkers from Plato to modern physicists have often argued they are fundamentally intertwined.
 
+## Anti-slop
+
+* Links
+* Footnotes
+* Authoritative sources
