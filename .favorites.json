@@ -1,0 +1,19 @@
+[
+    {
+        "type": "Group",
+        "name": "sandbox",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "iwIal81R30u5qJYG"
+    },
+    {
+        "type": "Directory",
+        "name": "g:\\My Drive\\2026-theo-github\\theo-armour-qdata\\apps\\newww-tab",
+        "parent_id": "iwIal81R30u5qJYG",
+        "fsPath": "g:\\My Drive\\2026-theo-github\\theo-armour-qdata\\apps\\newww-tab",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "m2isFPwSUlK5ufkD"
+    }
+]
