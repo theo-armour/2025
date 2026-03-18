@@ -10,14 +10,13 @@ Not everyone can say that. It is a statement that is both intentionally facetiou
 
 I worked For Solon Housing Association in South London from 1975 to 1980. At the Solon Housing Association, we rehabilitated old houses into flats for needy people. The firm was organized as a tenant worker cooperative. Everybody was on the same salary - architects, social workers, maintenance staff. It was a very socially conscious organization. Many workers were members of the Communist Party.
 
-Toward the end of that era, I realized I was not an English person, and I became restless. And it was time to move on. I thought about moving to the Middle East and getting involved with projects due to the burgeoning oil business. But that didn't really attract me. 
+Toward the end of that era, I realized I was not an English person, and I became restless. And it was time to move on. I thought about moving to the Middle East and getting involved with projects due to the burgeoning oil business. But that didn't really attract me.
 
-Instead, I decided to move to Asia. There was a feeling, especially about going to mainland China and being part of the revolution. I had no defined plan. I've never been a deep reader of communist philosophy or anything like that. But somehow I felt a need to help renew, rebuild, or rehabilitate. To a certain extent, perhaps, as I had done in London, but on a larger scale. But I also wanted to build skyscrapers. I wanted to be part of something new, energetic, and growing. 
+Instead, I decided to move to Asia. There was a feeling, especially about going to mainland China and being part of the revolution. I had no defined plan. I've never been a deep reader of communist philosophy or anything like that. But somehow I felt a need to help renew, rebuild, or rehabilitate. To a certain extent, perhaps, as I had done in London, but on a larger scale. But I also wanted to build skyscrapers. I wanted to be part of something new, energetic, and growing.
 
 It's actually taken me decades to realize this, but I actually fulfilled my dream. I became part of the revolution. I became part of the rebuilding of Asia. I became part of the building of skyscrapers. I became part of the building of factories. I became part of the building of a new world.
 
 ## China
-
 
 My first trip to China was in 1978. Mainland China was still running trains with steam engines and could barely take care of itself. By 1991, after living in Hong Kong for ten years, China was beginning to be the industrial powerhouse of the world.
 
@@ -41,11 +40,11 @@ Of course, China was going to bootstrap itself. And I feel that I was one of the
 
 It's impossible for me to know how much of an influence I was. I certainly was the only one from Autodesk who knew the product in China. At the same time, some of the mainframe companies were still trying to sell their very expensive products. There were one or two other microcomputer CAD products being copied or sold. But I was the only one who was there, in the trenches, showing people how to use AutoCAD. I was the only one who was there, in the trenches, showing people how to use computers. I was the only one who was there, in the trenches, showing people how to design factories and buildings on a computer screen.
 
-Would they have learned how to do this without me? Of course. 
+Would they have learned how to do this without me? Of course.
 
-Nonetheless, I think it is fairly safe to say that I helped China learn how to build factories. And once the factories were built, learn how to design things to make and thus factories. The same is true for building hospitals and highways and almost anything you can design. 
+Nonetheless, I think it is fairly safe to say that I helped China learn how to build factories. And once the factories were built, learn how to design things to make and thus factories. The same is true for building hospitals and highways and almost anything you can design.
 
-And in doing so, I helped China become the industrial colossus it is today, which in turn has changed the world. 
+And in doing so, I helped China become the industrial colossus it is today, which in turn has changed the world.
 
 And so with a sheepish grin, I say, this was the first time I helped change the world.
 
