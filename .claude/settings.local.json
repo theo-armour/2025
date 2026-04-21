@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"g:/My Drive/2026-theo-github/pushme-pullyou-tootoo\" diff tootoo-2026-lt/index.html)",
+      "Bash(git -C \"g:/My Drive/2026-theo-github/pushme-pullyou-tootoo\" status)"
+    ]
+  }
+}
