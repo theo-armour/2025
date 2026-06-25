@@ -8,6 +8,7 @@ window.TOOTOO_CONFIG = {
   subtitle: '',
   faviconLetters: '25',
   faviconColor: '#2e86c1',
+  faviconFile: 'favicon.ico',
   subtitle: 'a GitHub repository browser',
   headingFontUrl: 'https://fonts.googleapis.com/css2?family=Patua+One&display=swap',
   headingFont: '"Patua One", serif',
